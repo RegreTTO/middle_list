@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
-
+#include <vector>
+#include <string>
 using namespace std;
 
 vector <char> ft_strtlist(string str);
