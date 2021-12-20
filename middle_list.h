@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+
+using namespace std;
 
 vector <char> ft_strtlist(string str);
 string ft_join(vector <char> lst, string sep);
