@@ -17,7 +17,7 @@ string itc_join(vector <char> lst, string sep){
 }
 
 string itc_rmstrspc(string str){
-    string new_s;
+    string new_s = "";
     for (int i = 0; i<str.size(); i++){
         if(str[i]!=' '){
             new_s+=str[i];
