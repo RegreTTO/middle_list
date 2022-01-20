@@ -28,7 +28,7 @@ string itc_rmstrspc(string str){
 
 
 string itc_rmstrchar(string str, string l){
-    string new_s;
+    string new_s = "";
     for(int i = 0;i<str.size(); i++){
         bool is_banned = false;
         for(int j = 0; j < l.size() && !is_banned;j++){
